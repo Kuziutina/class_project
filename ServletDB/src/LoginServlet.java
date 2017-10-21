@@ -48,8 +48,7 @@ public class LoginServlet extends HttpServlet {
         if (check(username, password)) {
             request.getSession().setAttribute("current_user", username);
             response.sendRedirect("/students");
-        }
-        else {
+        } else {
             response.setContentType("text/html");
             response.getWriter().println("<form method=\"POST\">" +
                     "<p> ERRor</p>" +
@@ -67,11 +66,6 @@ public class LoginServlet extends HttpServlet {
         } catch (TemplateException e) {
             e.printStackTrace();
         }
-//        response.setContentType("text/html");
-//        response.getWriter().println("<form method=\"POST\">" +
-//                "<input type=\"text\" name=\"username\">" +
-//                "<input type=\"password\" name=\"password\">" +
-//                "<input type=\"submit\" value=\"ok\">" +
-//                "</form>");
+//
     }
 }

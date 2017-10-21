@@ -65,16 +65,6 @@ public class ViewStudentServlet extends HttpServlet {
                 session.setAttribute("student", student);
                 content.put("student", student);
                 Render.render(response, content, "/createStudent.ftl");
-//                student = new Student(last_name, rs.getInt("id"), rs.getInt("group_id"));
-
-//                response.setContentType("text/html");
-//                response.getWriter().println("<form method=\"POST\" action=\"/students/"+ id + "\">" +
-//                        "<input type=\"text\" name=\"last_name\" value=\"" + last_name +"\">" +
-//                        "<input type=\"text\" name=\"group\" value=\"" + group + "\">" +
-//                        "<input type=\"submit\" value=\"ok\">" +
-//                        "</form>" +
-//                        "<a href=\"/students/" + id + "\">back</a>");
-
             }
             else if (path.length == 3 && path[2].equals("delete")) {
                 StudentRepo sp = new StudentRepo();

@@ -37,7 +37,6 @@ public class GroupRepo {
             st = conn.createStatement();
             ResultSet rs = st.executeQuery("select * from groups where id = " + id);
             if (rs.next() ) {
-
                 return new Group(rs.getString("name"), id);
             }
             return null;

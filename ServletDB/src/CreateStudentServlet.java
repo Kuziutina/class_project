@@ -28,12 +28,5 @@ public class CreateStudentServlet extends HttpServlet {
             e.printStackTrace();
         }
 
-//        response.setContentType("text/html");
-//        response.getWriter().println("<form method=\"POST\" action=\"/students/create\">" +
-//                "<input type=\"text\" name=\"last_name\">" +
-//                "<input type=\"text\" name=\"group\">" +
-//                "<input type=\"submit\" value=\"ok\">" +
-//                "</form>" +
-//                "<a href=\"/students\">back</a>");
     }
 }
