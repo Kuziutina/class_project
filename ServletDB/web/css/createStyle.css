@@ -1,0 +1,16 @@
+body {
+    background-color: #eee;
+}
+
+a {
+    color: black;
+}
+
+input[type="submit"] {
+    border-radius: 4px;
+}
+
+.back_link {
+    padding-top: 5px;
+    padding-left: 8px;
+}

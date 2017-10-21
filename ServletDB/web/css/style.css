@@ -1,0 +1,17 @@
+p {
+	word-break: break-all;
+	-moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+div {
+	padding: 10px;
+}
+
+#top {
+	color: red;
+	text-transform: uppercase;
+	size: 20px;
+	font-weight: bold;
+}

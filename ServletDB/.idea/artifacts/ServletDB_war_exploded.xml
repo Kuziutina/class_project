@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ServletDB:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ServletDB_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ServletDB/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ServletDB" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="postgresql-42.1.4" />
+          <element id="library" level="project" name="freemarker" />
+          <element id="library" level="project" name="json-20140107" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

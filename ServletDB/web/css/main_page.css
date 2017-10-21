@@ -1,0 +1,110 @@
+@font-face{
+    font-family: ballpark;
+    src: url(../fonts/ballpark.ttf);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    color: #fafafa;
+}
+
+.top-menu{
+    background-color: #E0E0E0;
+    border-bottom: 4px solid #fafafa;
+}
+
+
+
+.header {
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    color: #202020;
+    font-size: 25px;
+    font-family: ballpark;
+}
+
+.logo:hover {
+    color: #202020;
+}
+
+nav a{
+    color: #222222;
+    padding: 6px 8px;
+    display: block;
+}
+
+nav .list-inline>li{
+    padding-right: 15px;
+/*    background: url(..) no-repeat 100% 50%;*/
+}
+
+nav a:hover, .log-in {
+    color: #222222;
+}
+
+nav li.active a, nav a:hover, form, .log-in a:hover{
+    background: #bdbdbd;
+    border-radius: 7px;
+    
+}
+
+.log-in a {
+    padding: 4px 5px;
+    color: #222222;
+    
+}
+.log-in {
+    padding-top: 6px;
+}
+
+button {
+    width: 20%;
+}
+
+input[type="text"] {
+    width: 77%;
+    outline: none;
+    color: #222222;
+    padding: 1px 5px;
+}
+
+input, button {
+    background: transparent;
+    border: none;
+}
+
+form {
+    border-radius: 10px;
+    border-top: 1px solid #909090;
+    display: block;
+    margin-top: 5px;
+}
+
+ul {
+    margin: 0px 0px;
+    padding-left: 0px;
+}
+
+.container {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+label {
+    color: #222222;
+    text-decoration: none;
+}
+
+.main-part {
+    background-color: #f5f5f5;
+}
